@@ -1,8 +1,13 @@
 #include <stdio.h>
-
-int stars = 10 ;
+int a = 10 ;
+int functionX(int ,int );
 int main ()
 {
-	printf("How many stars in the world = %d", stars);
-	return 0 ;
+	functionX(11,15);
+	functionX(11,16);
+	functionX(11,17);
+}
+int functionX(int aa ,int bb)
+{
+	printf("add = %d" ,aa*bb);
 }
