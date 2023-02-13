@@ -1,13 +1,12 @@
 #include <stdio.h>
 int a = 10 , b ;
-int functionX(char );
+int functionX(int,int );
 int main ()
 {
-	printf("\n%d ",functionX('y'));
+	printf("%d",functionX(10,10));  
 	return 0 ;
 }
-int functionX(char a)
+int functionX(int aa,int bb)
 {
-	a = a + 2 +3 +4 ; 
-	return  a ; 
+	return aa*bb ; 
 }
