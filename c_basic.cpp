@@ -1,15 +1,22 @@
 #include <stdio.h>
-char a ;
-int functionX(int,int );
+int functionX(bool, int );
+bool c=  false ;
 int main ()
 {
-	printf("Enter value number :");
-	scanf("%d",&a);  
-	printf("Display value number a : %c",a);
-	printf("Square value %c",functionX(a,a));
+	functionX(true,7);
 	return 0 ;
 }
-int functionX(int aa,int bb)
+int functionX(bool aa , int bb)
 {
-	return aa*bb ; 
+	if(!aa)
+	{
+		printf("Beuatiful World\n");
+	}else
+	{
+		printf("condition not found \n");
+	}
+	if(aa!=false && bb <8)
+	{
+			printf("console \n");
+	}
 }
