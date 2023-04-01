@@ -1,14 +1,12 @@
 #include <stdio.h>
-int a ;
-int sum(int);
+int user[] ; 
+char nStar[] = {'M','a','r','s'} ;
+int connectServer(int maxPlayer , int);
 int main()
 {
-	printf("%d",sum(5));
+	connectServer(4 , 1);
 }
-int sum(int num)
+int connectServer(int maxPlayer , int num)
 {
-	switch(num)
-	{
-		case  5 : return num+5 ; break ; 
-	}
+		user[num] = num;
 }
