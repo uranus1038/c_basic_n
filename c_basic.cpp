@@ -1,12 +1,11 @@
 #include <stdio.h>
-int user[] ; 
-char nStar[] = {'M','a','r','s'} ;
-int connectServer(int maxPlayer , int);
+bool tune = false ;
+int a = 0 ; //defualt
 int main()
 {
-	connectServer(4 , 1);
-}
-int connectServer(int maxPlayer , int num)
-{
-		user[num] = num;
+	while(true)
+	{
+		return true ; 
+	}
+	return 0 ;
 }
